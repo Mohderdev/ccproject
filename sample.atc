@@ -1,0 +1,39 @@
+/* sample Arabic++ program - Phase 1 */
+/* reads 5 numbers, sums them, counts evens, shows results */
+
+bidaya fat7
+    adkhal n khtm
+    adkhal i khtm
+    adkhal x khtm
+    adkhal sum khtm
+    adkhal evenCount khtm
+
+    amal initVars() fat7
+        sum = 0 khtm
+        evenCount = 0 khtm
+        raji3 0 khtm
+    ighlaq
+
+    amal process() fat7
+        li (i = 0; i < n; i = i zid 1) fat7
+            adkhal x khtm
+            sum = sum zid x khtm
+            iza ( (x % 2) musaawi 0 ) fat7
+                evenCount = evenCount zid 1 khtm
+            ighlaq aw fat7
+                /* nothing */
+            ighlaq
+        ighlaq
+        //comment
+        raji3 0 khtm
+    ighlaq
+    //Error line below
+    iajd - 0dj
+    initVars() khtm
+    process() khtm
+    bayan("Sum:") khtm
+    bayan(sum) khtm
+    bayan("Even numbers:") khtm
+    bayan(evenCount) khtm
+    nihaya khtm
+ighlaq
